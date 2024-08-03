@@ -8,7 +8,7 @@ outputTrainFileName = "./output/train.csv"
 outputTestFileName = "./output/test.csv"
 
 def formatData(prompt, answer):
-    return ['<s>[INST] ' + prompt + ' [/INST] ' + answer + ' </s>']
+    return [f"<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant\n{answer}<|im_end|>"]
 
 # def extract_text_from_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')

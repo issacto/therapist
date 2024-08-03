@@ -27,7 +27,6 @@ def write_summary_to_txt(file_path, summary):
     with open(file_path, mode='a', encoding='utf-8') as file:
         file.write(f"{summary}\n\n")
         file.write("<end-of-paragraph>")
-        # file.write(f"Summary for {disorder}:\n{summary}\n\n")
 #
 def main():
     file_input_path = './raw/disorders.csv'
@@ -37,7 +36,6 @@ def main():
     for disorder in disorders:
         summary = get_wikipedia_summary(disorder)
         write_summary_to_txt(file_output_path,summary)
-        # print(f"Summary for {disorder}:\n{summary}\n")
 
 if __name__ == "__main__":
     main()

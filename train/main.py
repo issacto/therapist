@@ -18,9 +18,7 @@ from trl import SFTTrainer
 # !huggingface-cli login
 
 # The model that you want to train from the Hugging Face hub
-# model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-model_name = "teknium/OpenHermes-2.5-Mistral-7B"
-
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 # The instruction dataset to use
 dataset_name = "Issactoto/therapist"

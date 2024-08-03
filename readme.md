@@ -1,3 +1,14 @@
 # Therapist
-## Data Set
-* counselchat - counselchat.com - https://github.com/nbertagnolli/counsel-chat/blob/master/data/counselchat-data.csv
+
+
+## Train
+* Training Data = counselchat - counselchat.com 
+
+## Predict 
+* Used Pinecone RAG to 
+
+## Evaluation
+
+## Deploy
+* Deploy the model to Hugging Face Space with Streamlit
+

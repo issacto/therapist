@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # 
-PINECONE_API_KEY='f2d629ac-747d-44d9-84b1-4ccb30d6a067'
+PINECONE_API_KEY='<your_pinecone_key>'
 PINECONE_ENVIRONMENT='therapist'
 file_path = "./data_clean/output/disorders_description.txt" 
 index_name = "therapist"
